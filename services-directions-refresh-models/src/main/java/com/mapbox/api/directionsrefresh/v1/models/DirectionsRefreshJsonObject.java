@@ -10,8 +10,6 @@ import java.io.Serializable;
 
 /**
  * Provides a base class for Directions model classes.
- *
- * @since 3.4.0
  */
 public class DirectionsRefreshJsonObject implements Serializable {
 
@@ -20,7 +18,6 @@ public class DirectionsRefreshJsonObject implements Serializable {
    * string.
    *
    * @return a JSON string which represents this DirectionsJsonObject
-   * @since 3.4.0
    */
   public String toJson() {
     GsonBuilder gson = new GsonBuilder();
