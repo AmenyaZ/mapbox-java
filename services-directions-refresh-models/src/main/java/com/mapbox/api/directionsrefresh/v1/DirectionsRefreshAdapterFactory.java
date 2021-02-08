@@ -6,8 +6,6 @@ import com.ryanharter.auto.value.gson.GsonTypeAdapterFactory;
 /**
  * Required so that AutoValue can generate specific type adapters when needed inside the direction
  * packages.
- *
- * @since 3.0.0
  */
 @GsonTypeAdapterFactory
 public abstract class DirectionsRefreshAdapterFactory implements TypeAdapterFactory {
@@ -15,8 +13,6 @@ public abstract class DirectionsRefreshAdapterFactory implements TypeAdapterFact
   /**
    * Creates a TypeAdapter that AutoValues uses to generate specific type adapters when needed
    * inside the direction package classes.
-   *
-   * @return 3.0.0
    */
   public static TypeAdapterFactory create() {
     return new AutoValueGson_DirectionsRefreshAdapterFactory();
